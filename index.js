@@ -29,7 +29,7 @@ const propTypes = {
     initValue:                      PropTypes.string,
     listType:                       PropTypes.oneOf(['SCROLLVIEW', 'FLATLIST']),
     animationType:                  PropTypes.oneOf(['none', 'slide', 'fade']),
-    style:                          PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+    style:                          PropTypes.oneOfType([PropTypes.object, PropTypes.number, PropTypes.array]),
     selectStyle:                    PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
     selectTextStyle:                PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
     optionStyle:                    PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
